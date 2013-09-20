@@ -20,7 +20,7 @@ SampleApp::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
   
-    # アプリケーションへのすべてのアクセスをSSL経由にし、
+  # アプリケーションへのすべてのアクセスをSSL経由にし、
   # Strict-Transport-Securityを使用し、
   # secure cookiesを使用する。
   config.force_ssl = true
